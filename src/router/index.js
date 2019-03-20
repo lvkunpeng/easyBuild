@@ -3,7 +3,7 @@ import Router from 'vue-router'
 // 全加载
 // import Index from '../components/Index'
 // 懒加载
-const Index = () => import('../components/Index')
+const Index = () => import('../components/index')
 
 Vue.use(Router)
 
